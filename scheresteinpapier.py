@@ -35,6 +35,12 @@ def game(): # game definition
         print('Computer hat gewonnen \n')
     elif user == 3 and computer == 'Schere':
         print('Computer hat gewonnen \n')
+    elif user == 1 and computer == 'Schere':
+        print ('unentschieden')
+    elif user == 2 and computer == 'Stein':
+        print ('unentschieden')
+    elif user == 3 and computer == 'Papier':
+        print ('unentschieden')
     else:
         print('Du hast gewonnen \n')
 
